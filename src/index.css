@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  ::selection {
+    background-color: #d4af37; /* Warna emas saat teks diblok */
+    color: white;
+  }
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  /* Pakai font-serif untuk kesan mewah */
+  font-family: "Playfair Display", serif;
+  background-color: #f9f8f4;
+  color: #4a4a4a;
+}
