@@ -3,16 +3,14 @@
 :root {
   scroll-behavior: smooth;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @layer base {
   ::selection {
     background-color: #d4af37; /* Warna emas saat teks diblok */
     color: white;
   }
-}
-
-:root {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -23,7 +21,7 @@ body {
   color: #4a4a4a;
   background-size: cover;
   background-position: center;
-  z-index: -1;
+  overflow-x: hidden;
 }
 a {
   color: #b8860b; /* Warna emas untuk tautan */
