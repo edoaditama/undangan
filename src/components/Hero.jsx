@@ -69,8 +69,8 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          transition={{ duration: 0.8, delay: 1.5 }}
-          className="inline-block px-8 py-3 md:px-10 md:py-4 bg-amber-700/80 backdrop-blur-md text-white rounded-full font-serif tracking-widest text-[10px] md:text-sm shadow-2xl border border-white/10 uppercase"
+          transition={{ duration: 0.8, delay: 1.3 }}
+          className="inline-block px-8 py-3 md:px-10 md:py-4 bg-amber-600/70 hover:bg-amber-800 backdrop-blur-md text-white rounded-full font-serif tracking-widest text-[10px] md:text-sm shadow-2xl border border-white/10 uppercase"
         >
           Buka Undangan
         </motion.button>

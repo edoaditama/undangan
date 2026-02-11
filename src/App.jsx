@@ -1,15 +1,15 @@
 import Hero from "./components/Hero";
 import EventDetails from "./components/EventDetails";
-import Pembukaan from "./components/Pembukaan";
+import Greeting from "./components/Greeting";
 import Maps from "./components/Maps";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="min-h-screen">
-      <Navbar/>
+      <Navbar />
       <Hero />
-      <Pembukaan />
+      <Greeting />
       <EventDetails />
       <Maps />
     </div>
