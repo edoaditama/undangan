@@ -23,7 +23,8 @@ body {
   background-position: center;
   overflow-x: hidden;
 }
+
 a {
-  color: #b8860b; /* Warna emas untuk tautan */
+  
   text-decoration: none;
 }
