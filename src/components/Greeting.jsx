@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
+import { g } from "framer-motion/client";
+import { Grab } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const Pembukaan = () => {
+const Greeting = () => {
   const [guestName, setGuestName] = useState("Bapak/Ibu/Saudara/i");
 
   useEffect(() => {
@@ -11,8 +13,6 @@ const Pembukaan = () => {
       setGuestName(name);
     }
   }, []);
-  ya;
-
   return (
     <section
       id="greeting"
@@ -81,4 +81,4 @@ const Pembukaan = () => {
   );
 };
 
-export default Pembukaan;
+export default Greeting;
