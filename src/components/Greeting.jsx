@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { g } from "framer-motion/client";
-import { Grab } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const Greeting = () => {
@@ -10,7 +8,7 @@ const Greeting = () => {
     const params = new URLSearchParams(window.location.search);
     const name = params.get("to");
     if (name) {
-      setGuestName(name);
+      setGuestName(decodeURIComponent(name.replace(/\+/g, " ")));
     }
   }, []);
   return (
@@ -68,9 +66,9 @@ const Greeting = () => {
               Kepada Yth.
             </p>
 
-            {/* GuestName dengan proteksi teks panjang */}
+            {/* GuestName */}
             <div className="inline-block px-4 py-2 border-y border-amber-100/50">
-              <p className="text-amber-900 font-serif text-xl sm:text-2xl md:text-4xl font-bold italic leading-tight wrap-break-word   max-w-full">
+              <p className="text-amber-900 font-serif text-xl sm:text-2xl md:text-4xl font-bold italic leading-tight wrap-break-word max-w-full capitalize">
                 {guestName}
               </p>
             </div>
