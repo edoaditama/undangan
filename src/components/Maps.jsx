@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const DenahLokasi = () => {
   return (
     <section
-      id="Denah"
+      id="maps"
       className="relative min-h-screen w-full py-16 px-5 md:py-24 md:px-10 bg-orange-50 flex flex-col items-center justify-center"
     >
       {/* Wrapper Utama  */}

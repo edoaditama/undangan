@@ -11,11 +11,12 @@ const Pembukaan = () => {
       setGuestName(name);
     }
   }, []);
+  ya;
 
   return (
     <section
-      id="Pembukaan"
-      className="relative min-h-screen w-full py-12 px-5 md:py-20 md:px-10 bg-orange-50 text-center flex flex-col justify-center items-center bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')]"
+      id="greeting"
+      className="relative min-h-screen w-full py-12 px-5 md:py-20 md:px-10 bg-orange-50 text-center flex flex-col justify-center items-center "
     >
       <div className="w-full max-w-2xl mx-auto flex flex-col items-center">
         {/* Animasi Salam */}

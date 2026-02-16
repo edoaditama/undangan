@@ -10,7 +10,7 @@ const EventDetails = () => {
       id="event-details"
       className="relative min-h-screen w-full py-12 px-6 md:py-20 md:px-10 flex flex-col justify-center items-center gap-10 bg-stone-50 bg-[url('/bg.jpg')] bg-cover bg-center bg-fixed"
     >
-      {/* Container utama - Menggunakan items-stretch agar tinggi card seimbang di desktop */}
+      {/* Container utama  */}
       <div className="w-full max-w-5xl flex flex-col md:flex-row justify-center items-stretch gap-6 md:gap-8">
         {/* Card 1: Waktu */}
         <motion.div
@@ -36,7 +36,6 @@ const EventDetails = () => {
               Pukul 08.00 - 10.00 WIB
             </p>
             <div className="h-px w-12 md:w-16 bg-amber-300 mx-auto my-4"></div>
-           
           </div>
         </motion.div>
 
@@ -64,12 +63,11 @@ const EventDetails = () => {
               <p className="text-sm md:text-lg leading-relaxed max-w-xs mx-auto">
                 Desa Karanglewas RT 03 RW 01, Purbalingga
               </p>
-               <div className="h-px w-12 md:w-16 bg-amber-300 mx-auto my-4"></div>
+              <div className="h-px w-12 md:w-16 bg-amber-300 mx-auto my-4"></div>
             </div>
           </div>
 
           {/* Tombol Navigasi */}
-          
         </motion.div>
       </div>
     </section>
