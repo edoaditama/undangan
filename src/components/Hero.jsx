@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   const scrollToContent = () => {
-    // Pastikan ID ini sesuai dengan ID section berikutnya
+    // Section Buka Undangan
     const contentElement = document.getElementById("event-details");
     if (contentElement) {
       contentElement.scrollIntoView({ behavior: "smooth" });
@@ -21,7 +21,6 @@ const Hero = () => {
           aria-hidden="true"
         />
 
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/60 md:bg-black/50"></div>
       </div>
 
@@ -34,7 +33,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-amber-200/90 mb-4 uppercase tracking-[0.2em] md:tracking-[0.4em] text-[10px] md:text-xs font-light"
         >
-          Undangan Silaturahmi Keluarga
+          Undangan Silaturahmi Keluarga Besar
         </motion.p>
 
         {/* Judul Utama */}
@@ -44,7 +43,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="text-4xl sm:text-5xl md:text-8xl font-serif text-amber-500 mb-4 md:mb-6 drop-shadow-2xl leading-tight"
         >
-          Bani Djuremi
+          Bani Satibi
         </motion.h1>
 
         {/* Garis Dekoratif  */}
@@ -65,7 +64,7 @@ const Hero = () => {
           17 . 03 . 2026
         </motion.p>
 
-        {/* Button - Ukuran tombol lebih nyaman untuk jari di mobile */}
+        {/* Button Undangan */}
         <motion.button
           onClick={scrollToContent}
           initial={{ opacity: 0, y: 20 }}

@@ -56,7 +56,7 @@ const Greeting = () => {
           </h3>
 
           <p className="text-stone-800 font-bold text-3xl sm:text-4xl md:text-5xl uppercase tracking-widest leading-none mb-6 md:mb-8">
-            Bani Djuremi
+            Bani Satibi
           </p>
 
           <div className="h-px w-24 sm:w-32 md:w-40 bg-linear-to-r from-transparent via-amber-400 to-transparent mx-auto mb-8 md:mb-10"></div>
