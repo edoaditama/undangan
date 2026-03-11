@@ -34,7 +34,7 @@ const Maps = () => {
             <iframe
               className="absolute inset-0 w-full h-full grayscale-20 contrast-[1.1]"
               title="Denah Lokasi"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.60909556442584!2d109.34135941952421!3d-7.3681555991046555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65586640a152bd%3A0x51e7be9c82c548cf!2sKaranglewas%2C%20Kec.%20Kutasari%2C%20Kabupaten%20Purbalingga%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1771247404342!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.3045812848201!2d109.34155711637042!3d-7.36809557421159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65586640a152bd%3A0x51e7be9c82c548cf!2sKaranglewas%2C%20Kec.%20Kutasari%2C%20Kabupaten%20Purbalingga%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1773224281708!5m2!1sid!2sid"
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
