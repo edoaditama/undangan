@@ -61,7 +61,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 1.2 }}
           className="text-stone-300 font-serif italic text-base md:text-xl mb-8 md:mb-10 tracking-[0.2em]"
         >
-          17 . 03 . 2026
+          22 . 03 . 2026
         </motion.p>
 
         {/* Button Undangan */}

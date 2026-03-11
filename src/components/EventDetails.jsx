@@ -30,10 +30,10 @@ const EventDetails = () => {
 
           <div className="space-y-4 text-stone-600">
             <p className="font-bold text-xl md:text-2xl text-stone-800">
-              Selasa, 17 Maret 2026
+              Minggu, 22 Maret 2026
             </p>
             <p className="text-lg md:text-xl font-medium">
-              Pukul 08.00 - 10.00 WIB
+              Pukul 08.00 - 12.00 WIB
             </p>
             <div className="h-0.5 w-16 bg-amber-300 mx-auto mt-6"></div>
           </div>
